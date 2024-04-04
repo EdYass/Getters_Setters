@@ -28,6 +28,7 @@ public class Funcionario {
         this.cargo = teclado.nextLine();
         System.out.print("Digite a idade do Funcionário: ");
         this.idade = teclado.nextInt();
+        teclado.close();
 
     }
     public void apresentarDados(){

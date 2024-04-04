@@ -26,6 +26,7 @@ public class Estudante {
         this.curso = teclado.nextLine();
         System.out.print("Digite a idade do aluno: ");
         this.idade = teclado.nextInt();
+        teclado.close();
     }
     public void exibirDados(){
         System.out.println("O nome do aluno é: "+this.nome);

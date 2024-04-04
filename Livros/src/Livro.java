@@ -37,7 +37,6 @@ public class Livro {
         System.out.println("Título do livro: "+this.titulo);
         System.out.println("Autor do livro: "+this.autor);
         System.out.println("Ano Publicado: "+this.ano);
-
     }
 
 }

@@ -11,6 +11,7 @@ public class Circulo {
             this.raio = raio.nextFloat();
             double AreaC = Math.PI*Math.pow(this.raio,2);
             System.out.printf("A área do círculo é: %.2f",AreaC);
+            raio.close();
         }
 
 }

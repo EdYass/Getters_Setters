@@ -22,6 +22,7 @@ public class Banco {
         Scanner teclado = new Scanner(System.in);
         this.saldo =this.saldo + teclado.nextFloat();
         System.out.println("O saldo atual é: "+this.saldo);
+        teclado.close();
     }
 
     public void sacar(){
@@ -35,5 +36,6 @@ public class Banco {
         }else{
             System.out.println("O saldo atual é: "+saque);
         }
+        teclado.close();
     }
 }
